@@ -9,6 +9,13 @@ logo: '/public/logo.png'
 # Site configurations
 gems:
   - jekyll-paginate
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 markdown: kramdown
 kramdown:
   input: GFM
